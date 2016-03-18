@@ -1,0 +1,328 @@
+/* @override http://mark.reid.dev/files/css/screen.css */
+
+/* @override
+ http://mark.reid.dev/files/css/screen.css
+ http://mark.reid.name/files/css/screen.css
+ */
+
+/* screen.css
+ *
+ * A clean, simple stylesheet that aims for
+ * a consistent vertical rhythm.
+ *
+ * Base font height: 16px
+ * Base line length: 24px
+ *
+ * AUTHOR: Mark Reid <mark@reid.name>
+ */
+
+/* @group Reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,th,td,abbr { margin:0; padding:0;}
+/* @end */
+
+
+@font-face {
+    font-family: 'Bradley Hand';
+    src: url("file:///android_asset/fonts/Hand.ttf")
+}
+
+@font-face {
+    font-family: 'Savoye LET';
+    src: url("file:///android_asset/fonts/SavoyeLetPlain.ttf")
+}
+
+/*@font-face {
+    font-family: 'Heiti SC';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Heiti SC'), local('Heiti SC'), url(file:///android_asset/fonts/Heiti.ttf) format('truetype');
+}*/
+
+@font-face {
+    font-family: 'Kaiti SC';
+    src: url("file:///android_asset/fonts/KaiTiSC.TTF")
+}
+
+@font-face {
+    font-family: 'Libian SC';
+    src: url("file:///android_asset/fonts/LibianSC.ttf")
+}
+
+@font-face {
+    font-family: 'Xingkai SC';
+    src: url("file:///android_asset/fonts/Xingkai.ttf")
+}
+
+@font-face {
+    font-family: 'Wawati SC';
+    src: url("file:///android_asset/fonts/WawatiSC-Regular.otf")
+}
+
+/*@font-face {
+    font-family: 'Helvetica';
+    src: url("file:///android_asset/fonts/Helvetica.ttf")
+}*/
+
+/*@font-face {
+    font-family: 'Times New Roman';
+    src: url("file:///android_asset/fonts/Times.ttf")
+}*/
+
+@font-face {
+    font-family: 'Cochin';
+    src: url("file:///android_asset/fonts/Cochin.ttf")
+}
+
+@font-face {
+    font-family: 'Avenir Next Condensed';
+    src: url("file:///android_asset/fonts/avenirnextregular.otf")
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url("file:///android_asset/fonts/FuturaBT-Medium.ttf")
+}
+
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,th,td,abbr { margin:0; padding:0;}
+/* @end */
+
+body {
+    /* Recomnonded font, order is left to right */
+    font-family: "Heiti SC", "Helvetica", "宋体", "Times New Roman";
+    font-size: 100%;  /* Adaptive Device Screen size, Default is 16px */
+    background-color: transparent;
+    background-position: center -18em;
+    background-repeat: repeat;
+
+    -webkit-touch-callout: none;
+    -webkit-hyphens: auto;
+}
+
+/* Hack via Joel Spolsky to make image rescaling nicer in IE */
+img { -ms-interpolation-mode:bicubic; }
+
+/* IE6 ignores this and uses default size of 16pt */
+html>body { font-size:16px; }
+
+p {
+    /*margin: 0 0 0.618em 0;*/
+    margin: 0.31em 0 0.31em 0;
+
+    line-height: 1.5em;
+    text-align: justify;
+    page-break-inside: auto;
+}
+
+a:link {text-decoration: none;color: #2ea69b;}
+/* Add shadow for image */
+img {
+    margin:0;
+    padding:0;
+    page-break-before: auto;
+    height: auto;
+    display: block;
+}
+
+/* image common style, center allign */
+.imgCommonStyle {
+    margin-left:     0em;
+    margin-right:    0em;
+    margin-bottom: 0.5em;
+    margin-top:    0.5em;
+
+    box-shadow: 0px 2px 3px rgba(96,96,96,0.3);
+    -webkit-box-shadow: 0px 2px 3px rgba(96,96,96,0.3);
+    -moz-box-shadow: 0px 2px 3px rgba(96,96,96,0.3);
+    border: solid 1px rgba(230,230,230,0.35);
+}
+
+/* image land view style */
+.imgLandwideStyle{
+    margin-left:  -1em;
+    margin-right: -16px;
+    margin-bottom: 0.5em;
+    margin-top:    0.5em;
+    /*
+    box-shadow: 0px 2px 3px rgba(96,96,96,0.3);
+	-webkit-box-shadow: 0px 2px 3px rgba(96,96,96,0.3);
+	-moz-box-shadow: 0px 2px 3px rgba(96,96,96,0.3);
+    border: solid 1px rgba(230,230,230,0.35);*/
+}
+
+.imgPolaroidStyle{
+    margin-left:  -1em;
+    margin-right: -16px;
+    margin-bottom: 0.5em;
+    margin-top:    0.5em;
+}
+
+
+h1 {
+    font-size: 1.635em;
+    font-weight:bold;
+    line-height: 1.31em;
+    /*margin-bottom: 1em;*/
+    margin:1em 0 1em 0;
+}
+
+#site {
+    max-width: 46em;
+    margin-top:     0em;
+    margin-right:   auto;
+    margin-bottom:  0em;
+    margin-left:    auto;
+    line-height:1.5em;
+}
+
+#page {
+    padding: 1.5em 1em 2em;
+}
+
+.blockquote-column {
+    padding-top:    0em;
+    padding-right:  0em;
+    padding-bottom: 0em;
+    padding-left: 1em;
+    margin: 1.714em 0;
+    border-left:0.2em solid #cfcfcf;
+
+    /*color: #444;*/
+    font-family: "Kaiti SC", "Avenir Next Condensed";
+    font-size: 0.875em; /*0.875*0.875(p) = 12px*/
+    /*font-style: italic;*/
+    line-height: 1.5em;  /*1.714em;*/
+}
+
+.blockquote-quotation {
+    padding-top:    0em;
+    padding-right:  0em;
+    padding-bottom: 0em;
+    padding-left: 1.4em;
+    /*margin: 1.714em 0;*/
+    margin: 0.5em 0 0.5em 0;
+
+    /*color: #444;*/
+    font-family: "Kaiti SC", "Avenir Next Condensed";
+    font-size: 0.875em; /*0.875*0.875(p) = 12px*/
+    /*font-style: italic;*/
+    line-height: 1.5em;  /*1.714em;*/
+}
+.blockquote-quotation:before {
+    content:"\201C";
+    font-size: 3em;
+    font-family: Georgia, serif;
+    color:#cfcfcf;
+
+    position:relative;
+    top:  0.5em;
+    left: -0.5em;
+}
+.blockquote-quotation:after {
+    content:"\201D";
+    font-size: 3em;
+    font-family: Georgia, serif;
+    color:#cfcfcf;
+
+    position:relative;
+    top:  0.3em;
+    left: -0.4em;
+}
+/* @group Lists */
+ul {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    line-height: 1.31em;
+    padding-left: 1.5em;
+}
+ul li {
+    list-style-type: disc;  /* square, decimal */
+    list-style-position: outside;
+    padding: 0.5em 0;
+
+    page-break-inside: auto;
+}
+
+ol {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    line-height: 1.31em;
+    padding-left: 1.5em;
+}
+ol li {
+    list-style-type: decimal;
+    list-style-position: outside;
+    padding: 0.5em 0;
+
+    page-break-inside: auto;
+}
+dt { font-weight: bold;}
+dd { margin: 0 0 1.5em 0; text-align: justify; }
+
+ul.compact { margin: 0; padding: 0;}
+ul.compact li { list-style: ;
+    list-style-type: square;  /* disc, decimal */
+    list-style-position: inside;
+}
+ul.compact li span.date {
+    display: none;
+    color: grey;
+    width: 20%;
+}
+ul.compact li a {
+    width: 70%;
+}
+/* @group Footer */
+#footer {
+    margin-top: 0;
+    color: grey;
+    font-size: 62.5%;
+    line-height: 1.3em;
+}
+#footer address {
+    position: relative;
+    margin: .5em 0 0 0;
+    text-align: right;
+
+}
+#footer a {
+    font-variant: small-caps;
+    font-style: normal;
+    color: #77d;
+    text-decoration: none;
+}
+#footer .copyright {
+    /*position: absolute;*/
+    left: 0;
+    text-align: left;
+    display: block;
+    float: left; /*adaptive device screen size*/
+}
+#footer .engine {
+    /*position: absolute;*/
+    text-align: right;
+    display: block;
+    right: 0;
+    float: right; /*adaptive device screen size*/
+}
+/* @group Equations */
+div.maruku-equation { display: block ;text-align: center; }
+div.maruku-equation img.maruku-png { position: relative; top: -0.75em;}
+span.maruku-inline { }
+img.maruku-png { }
+/* @end */
+
+
+/*poster scc*/
+body,html,#site,.title p {margin-top: 0;padding-top: 0;}
+.title {margin-bottom: 2em;}
+.title-img {margin-left: -16px;margin-bottom: 1em;background-size: cover;}
+.title-img-outer .mask-gradiant ,.title-img-outer .mask-solid ,.title-img-outer .mask-origin{z-index: 9;margin-left: -16px;position: absolute;height: 321px;}
+.title-img-outer div {background-repeat:no-repeat;background-position: bottom;height: 320px;width: 100%;}
+.title .title-text {font-size: 2em;position: absolute;margin:-2em 0 0 0;z-index: 999;color: white;line-height: 1.2em;}
+.mask-gradiant {background: url(file:///android_asset/images/poster_gradiant_mask.png);background-size: 100% 100%;}
+.mask-solid {background: url(file:///android_asset/images/poster_solid_mask.png);}
+.mask-origin {visibility: hidden;}
+
+/*ZZZero 20141219，解决编辑框有橙色细线的问题*/
+#page {outline:none;}

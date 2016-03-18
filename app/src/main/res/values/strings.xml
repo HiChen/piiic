@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Piiic</string>
+    <string name="action_settings">Settings</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="finish">完成</string>
+    <string name="tip_save_picture_fail">保存图片失败</string>
+    <string name="tip_save_picture_succ">保存图片成功</string>
+    <string name="tip_edit_picture_fail">编辑图片失败，请重新编辑</string>
+    <string name="loading">正在加载。。。</string>
+    <string name="handling">handling</string>
+    <string name="title_activity_main_b">MainBActivity</string>
+</resources>

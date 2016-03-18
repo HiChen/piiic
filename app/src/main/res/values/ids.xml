@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="title">false</item>
+    <item type="id" name="activity_main">false</item>
+    <item type="id" name="entrance">false</item>
+    <item type="id" name="back">false</item>
+    <item type="id" name="pic">false</item>
+    <item type="id" name="share">false</item>
+    <item type="id" name="scrollview">false</item>
+    <item type="id" name="gxglayout">false</item>
+    <item type="id" name="myedit">false</item>
+    <item type="id" name="preview">false</item>
+    <item type="id" name="action_clear">false</item>
+    <item type="id" name="action_about">false</item>
+    <item name="article_editor_text_style_align_left" type="id"/>
+    <item name="article_editor_text_style_align_right" type="id"/>
+</resources>

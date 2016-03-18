@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Gallery
+            android:id="@+id/article_editor_text_style_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Gallery
+            android:id="@+id/article_editor_text_style_family"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Gallery
+            android:id="@+id/article_editor_text_style_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Gallery
+            android:id="@+id/article_editor_text_style_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/article_editor_text_style_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/editor_b_normal"/>
+
+        <CheckBox
+            android:id="@+id/article_editor_text_style_italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/editor_i_normal"/>
+
+        <CheckBox
+            android:id="@+id/article_editor_text_style_underline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/editor_u_normal"/>
+
+        <RadioGroup
+            android:id="@+id/article_editor_text_style_align"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

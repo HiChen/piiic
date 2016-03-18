@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+<ImageView
+    android:id="@+id/article_editor_add_pic_photo"
+    android:layout_width="45dp"
+    android:layout_height="45dp"
+    android:src="@drawable/edit_add_image"/>
+    <ImageView
+        android:id="@+id/article_editor_add_pic_paper"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/edit_add_paper"/>
+</LinearLayout>
